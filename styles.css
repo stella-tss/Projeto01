@@ -1,0 +1,60 @@
+/* line-heigth = Altura da linha, font-weigth = peso da fonte, text-align = alinha tudo para o centro da página */
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#hero{
+  width: 592px; /* Largura do hero */
+  margin: 0 auto 72px; /* Margem topo, laterais, baixo */
+}
+
+#hero img {
+  margin-bottom: 72px; /* Margem superior */
+}
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+
+span {
+  color: #FF9900;
+}
+
+p, #footer{
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+a {
+  color: #FF9900;
+}
+
+#footer a + a {
+  margin-left: 28px; /* o elemento "+a" diz pra ele pegar um a anterior a ele e de uma margem para a equerda de 28 pixels  */
+}
+
+
+#line{
+  width: 568px;
+  height: 0px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+
+}
